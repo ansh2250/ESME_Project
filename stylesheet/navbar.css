@@ -1,0 +1,17 @@
+#nav_main{
+    background-color:var(--brand-white);
+    color:var(--brand-dark);
+}
+
+.nav-link{
+    color:var(--brand-dark);
+}
+
+.nav-link:hover{
+    color:var(--brand-orange);
+}
+.active{
+    border-radius:5px;
+    background-color: var(--brand-orange);
+    color: var(--brand-black) !important;
+}

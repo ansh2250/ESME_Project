@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESME</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/master.css">
+    <link rel="stylesheet" href="stylesheet/footer.css">
+    <link rel="stylesheet" href="stylesheet/header.css">
+    <link rel="stylesheet" href="stylesheet/footer.css">
+    <link rel="stylesheet" href="stylesheet/resposive.css">
+    <link rel="stylesheet" href="stylesheet/navbar.css">
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- navbar start-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="nav_main">
+    <div class="container">
+      <!-- navbar logo -->
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="assets/logo/esme logo.png" alt="esme logo" width="125px"></a>
+      <!-- navbar toggle -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h6 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <b>ESME</b>
+          </h6>
+          <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 gap-3">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link active" href="service.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Partner</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Resources</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Partner</a></li>
+                <li><a class="dropdown-item" href="#">News</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Career</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+    <!--=====================================-->
+    <!-- header -->
+    <div class="container p-5" id="hdr_service">
+        <div class="row mt-5 text-center">
+            <div class="col-md-4">
+                <div class="esme-value">
+                    <div class="esme-card">
+                        <img src="assets/service_imge/pipe.jpg" alt="esme" data-aos="flip-right">
+                        <div class="esme-body" data-aos="fade-right">
+                            <h3 class="esme-heading">Engineering and Corrosion Solution</h3>
+                            <button type="button" class="btn card-button" data-bs-toggle="modal"
+                                data-bs-target="#esmeModel_1"> Know More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="esme-value">
+                    <div class="esme-card">
+                        <img src="assets/service_imge/engrng_design.jpg" alt="esme" data-aos="flip-left">
+                        <div class="esme-body" data-aos="fade-left">
+                            <h3 class="esme-heading">Engineering Design</h3>
+                            <button type="button" class="btn card-button" data-bs-toggle="modal"
+                                data-bs-target="#esmeModel_2"> Know More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="esme-value">
+                    <div class="esme-card">
+                        <img src="assets/service_imge/inspection.jpg" alt="esme" data-aos="flip-right">
+                        <div class="esme-body" data-aos="fade-right">
+                            <h3 class="esme-heading">Inspection and Technical consultancy</h3>
+                            <button type="button" class="btn card-button" data-bs-toggle="modal"
+                                data-bs-target="#esmeModel_3"> Know More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 text-center d-flex justify-content-center">
+            <div class="col-md-4">
+                <div class="esme-value">
+                    <div class="esme-card">
+                        <img src="assets/service_imge/menufacture.jpg" alt="esme" data-aos="flip-left">
+                        <div class="esme-body" data-aos="fade-right">
+                            <h3 class="esme-heading">Manufacturing and Execution</h3>
+                            <button type="button" class="btn card-button" data-bs-toggle="modal"
+                                data-bs-target="#esmeModel_4"> Know More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="esme-value">
+                    <div class="esme-card">
+                        <img src="assets/service_imge/technician-ndt-inspection.jpg" alt="esme" data-aos="flip-right">
+                        <div class="esme-body" data-aos="fade-left">
+                            <h3 class="esme-heading">Advanace NDT and Digitalization solution</h3>
+                            <button type="button" class="btn card-button" data-bs-toggle="modal"
+                                data-bs-target="#esmeModel_5"> Know More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <!-- model popup one-->
+        <div class="modal fade" id="esmeModel_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Engineering and Corrosion Solution</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your original content -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4" id="circle_popup">Engineering and Corrosion solution
+                                </div>
+                                <div class="col-md-8 ms-auto">
+                                    <ul class="small-font">
+                                        <li><strong>Comprehensive Support Services:</strong> Offering end-to-end
+                                            support, from initial design and feasibility studies to installation,
+                                            maintenance, and optimization, ensuring the longevity and reliability of
+                                            mechanical systems through their entire lifecycle.</li>
+
+                                        <li><strong>Custom Engineering Solutions:</strong> Providing tailored design
+                                            services for complex mechanical systems and equipment used in the chemical
+                                            and oil & gas industries, ensuring that all solutions meet specific client
+                                            needs and industry standards.</li>
+
+                                        <li><strong>Material Selection and Compatibility:</strong> Assist in selecting
+                                            corrosion-resistant materials for construction and repair projects. Ensure
+                                            material compatibility with specific chemicals and operating conditions to
+                                            minimize corrosion risks.</li>
+
+                                        <li><strong>Failure Analysis and Risk Management:</strong> Conduct thorough
+                                            failure analysis to identify the root causes of corrosion-related failures.
+                                            Implement risk management strategies to mitigate the impact of corrosion on
+                                            operations.</li>
+
+                                        <li><strong>Protective Coatings and Linings:</strong> Provide a range of
+                                            protective coatings and linings to prevent corrosion in pipelines, tanks,
+                                            and equipment. Use high-performance coatings resistant to chemicals, high
+                                            temperatures, and mechanical wear.</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- model popup one-->
+        <!-- ============================================= -->
+        <!-- model popup two-->
+        <div class="modal fade" id="esmeModel_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Engineering Solutions Manufacturing Execution
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your original content -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4" id="circle_popup">Engineering Design</div>
+                                <div class="col-md-8 ms-auto">
+                                    <ul class="small-font">
+                                        <li><strong>Comprehensive Design Services:</strong> Conceptual design and
+                                            feasibility studies. Detailed engineering design, including piping, vessels,
+                                            and structures. Equipment selection and specification.</li>
+
+                                        <li><strong>Lifecycle Support:</strong> Offering services that extend beyond
+                                            design, including maintenance and operational support. Assistance with
+                                            modifications and upgrades as needed throughout the plant’s life.</li>
+
+                                        <li><strong>Process Equipment Design:</strong> Development of custom equipment
+                                            like separators, heat exchangers, vessels, and tanks.</li>
+
+                                        <li><strong>Piping System Design:</strong> Design of robust piping systems to
+                                            ensure efficient fluid transport, considering thermal expansion and pressure
+                                            variations.</li>
+
+                                        <li><strong>Stress Analysis:</strong> Conducting detailed stress analysis on
+                                            critical components to ensure structural integrity under operational loads.
+                                        </li>
+
+                                        <li><strong>Thermal Analysis:</strong> Expertise in performing thermal analysis
+                                            for heat exchangers to ensure optimal heat transfer and energy efficiency.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- model popup two-->
+        <!-- ============================================ -->
+        <!-- model popup three-->
+        <div class="modal fade" id="esmeModel_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Engineering Solutions Manufacturing Execution
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your original content -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4" id="circle_popup">Inspection and Technical consultancy</div>
+                                <div class="col-md-8 ms-auto">
+                                    <ul class="small-font">
+                                        <li><strong>Non-destructive Testing (NDT) Methods:</strong> Ultrasonic,
+                                            radiographic, magnetic particle, and dye penetrant inspections. Regular and
+                                            periodic inspections of pipelines, storage tanks, and equipment. Corrosion
+                                            monitoring and management. Third-party inspection services to ensure
+                                            compliance with international standards.</li>
+                                        <li><strong>Technical Consultancy:</strong> Feasibility studies and project
+                                            evaluation. Risk assessment and management.
+                                            Technical audits and due diligence. Expert advice on regulatory compliance
+                                            and industry standards.</li>
+
+                                        <li><strong>Quality Assurance and Quality Control (QA/QC):</strong> Development
+                                            and implementation of QA/QC plans.
+                                            Vendor and contractor quality audits. Inspection and test plans (ITPs) and
+                                            procedures. Certification and
+                                            documentation review.</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- model popup three-->
+        <!-- ============================================ -->
+
+        <!-- model popup four -->
+        <div class="modal fade" id="esmeModel_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Engineering Solutions Manufacturing Execution
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your original content -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4" id="circle_popup">Manufacturing and Execution
+                                </div>
+                                <div class="col-md-8 ms-auto">
+                                    <ul class="small-font">
+                                        <li><strong>Procurement Services:</strong> Handle procurement of high-quality
+                                            components and materials, ensuring timely availability for project
+                                            execution.</li>
+
+                                        <li><strong>Manufacturing:</strong> Manufacturing of pressure vessels and heat
+                                            exchangers with industry standards such as ASME, API, and PED.</li>
+
+                                        <li><strong>Vendor Management:</strong> Experience in selecting and managing
+                                            suppliers and subcontractors for components and services essential to
+                                            equipment manufacturing.</li>
+
+                                        <li><strong>Welding Expertise:</strong> Proficiency in advanced welding
+                                            techniques suitable for high-strength and high-temperature applications,
+                                            including TIG and MIG welding.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- model popup four -->
+
+        <!-- ============================================= -->
+        <!-- model popup five -->
+        <div class="modal fade" id="esmeModel_5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Engineering Solutions Manufacturing Execution
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your original content -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4" id="circle_popup">Advance NDT and Digitalization solution
+                                </div>
+                                <div class="col-md-8 ms-auto">
+                                    <ul class="small-font">
+                                        <li><strong>Predictive Maintenance:</strong> Utilize advanced sensor technology
+                                            and data analytics to predict equipment failures before they occur,
+                                            minimizing downtime and reducing maintenance costs.</li>
+
+                                        <li><strong>Condition Monitoring Systems:</strong> Install real-time monitoring
+                                            systems to continuously assess the health of critical machinery, allowing
+                                            for timely interventions and repairs.</li>
+
+                                        <li><strong>High-Sensitivity Detection Technologies:</strong> Employ
+                                            state-of-the-art leak detection technologies, such as infrared cameras and
+                                            acoustic sensors, to identify leaks at the earliest possible stage.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- model popup five -->
+        <!-- Modal Structure -->
+    </div>
+    <!-- header end -->
+    <!--=====================================-->
+
+
+    <!--=====================================-->
+    <!-- footer -->
+    <footer class="mt-5">
+        <div class="f-item-con">
+            <div class="app-info">
+                <span class='app-name'>
+                    <span class='app-initial'>E</span>SME
+                </span>
+                <p>We provide you with <strong>innovative</strong> and <strong>efficient</strong> Engineering Solutions.
+                </p>
+            </div>
+            <div class="useful-links">
+                <div class="footer-title">Useful Links</div>
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="About.html"> About Us </a> </li>
+                    <li> <a href="service.html"> Services </a> </li>
+                    <li> <a href="#"> Partner </a> </li>
+                    <li> <a href="#"> Contact Us </a> </li>
+                    <li> <a href="#"> Resources </a> </li>
+                </ul>
+            </div>
+            <div class="g-i-t">
+                <div class="footer-title">Get in Touch</div>
+                <form action="/" method="post" class="space-y-2">
+                    <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+                    <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+                    <textarea name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                        placeholder='Message...'></textarea>
+                    <button type="submit" class='f-btn'>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class='cr-con'>Copyright &copy; 2022 | Developed by <a href="#">Go Sprraow</a></div>
+    </footer>
+    <!-- footer -->
+    <!-- Fixed WhatsApp -->
+    <div class="fixed-whatsapp-btn">
+        <a href="https://wa.me/+971503596097">
+            <img src="assets/logo/Whatsapp_logo-removebg-preview.png" alt="whatsapp logo" width="50px">
+        </a>
+    </div>
+    <!-- Fixed WhatsApp -->
+    <!-- *************************************************************************** -->
+    <!-- javascripts link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 170,
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
